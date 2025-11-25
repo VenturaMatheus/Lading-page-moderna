@@ -118,7 +118,7 @@ Este projeto está sob a licença MIT. Sinta-se livre para usar, modificar e dis
 
 **Seu Nome**
 - GitHub: [@VenturaMatheus](https://github.com/VenturaMatheus)
-- LinkedIn: [Seu Perfil](https://www.linkedin.com/in/matheus-ventura-2a9933196/)
+- LinkedIn: [Meu perfil](https://www.linkedin.com/in/matheus-ventura-2a9933196/)
 
 ## 🤝 Contribuindo
 
