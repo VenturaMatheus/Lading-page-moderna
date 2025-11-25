@@ -80,66 +80,6 @@ Landing Page Moderna/
 2. Clique com botão direito em `index.html`
 3. Selecione "Open with Live Server"
 
-### Opção 3: Servidor Local Python
-```bash
-# Python 3
-python -m http.server 8000
-
-# Acesse: http://localhost:8000
-```
-
-### Opção 4: Node.js com http-server
-```bash
-# Instalar globalmente
-npm install -g http-server
-
-# Executar na pasta do projeto
-http-server
-
-# Acesse: http://localhost:8080
-```
-
-## 🎨 Personalização
-
-### Cores
-Edite as variáveis CSS em `css/style.css`:
-
-```css
-:root {
-  --primary-color: #6366f1;      /* Cor principal */
-  --secondary-color: #8b5cf6;    /* Cor secundária */
-  --accent-color: #ec4899;       /* Cor de destaque */
-  /* ... outras cores */
-}
-```
-
-### Tipografia
-Fontes utilizadas (Google Fonts):
-- **Inter** - Texto principal
-- **Poppins** - Títulos e headings
-
-Para alterar:
-```css
-:root {
-  --font-primary: 'SuaFonte', sans-serif;
-  --font-heading: 'SuaFonte', sans-serif;
-}
-```
-
-### Conteúdo
-Todo o conteúdo está em `index.html`. Edite:
-- Textos dos títulos e descrições
-- Links das redes sociais
-- Informações dos cards
-- Preços e features
-- Depoimentos
-
-### Imagens
-Para adicionar imagens personalizadas:
-1. Coloque as imagens na pasta `assets/images/`
-2. Substitua os SVG placeholders no HTML
-3. Use caminhos relativos: `assets/images/sua-imagem.jpg`
-
 ## 🛠️ Tecnologias Utilizadas
 
 ### Core
@@ -154,52 +94,6 @@ Para adicionar imagens personalizadas:
 ### Recursos
 - **UI Avatars API** - Avatares para depoimentos
 - **SVG Inline** - Ícones e ilustrações
-
-## 📋 Checklist de Melhores Práticas
-
-- ✅ HTML semântico
-- ✅ CSS organizado com variáveis
-- ✅ JavaScript modular e comentado
-- ✅ Responsivo em todos os dispositivos
-- ✅ Acessibilidade (ARIA labels)
-- ✅ SEO otimizado (meta tags)
-- ✅ Performance otimizada
-- ✅ Cross-browser compatível
-- ✅ Dark mode implementado
-- ✅ Animações suaves e modernas
-
-
-## 🌟 Dicas de Otimização
-
-### 1. Imagens
-```html
-<!-- Use atributos loading e srcset -->
-<img 
-  src="imagem.jpg" 
-  srcset="imagem-320w.jpg 320w, imagem-640w.jpg 640w"
-  sizes="(max-width: 768px) 100vw, 50vw"
-  loading="lazy"
-  alt="Descrição"
->
-```
-
-### 2. Fonts
-```css
-/* Preconnect para Google Fonts */
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-```
-
-### 3. JavaScript
-- Use `defer` ou `async` nos scripts
-- Minimize o uso de jQuery (não necessário aqui)
-- Use event delegation quando possível
-
-### 4. CSS
-- Evite `!important`
-- Use CSS Grid e Flexbox
-- Implemente variáveis CSS
-- Minimize especificidade excessiva
 
 ## 📱 Compatibilidade
 
@@ -225,7 +119,6 @@ Este projeto está sob a licença MIT. Sinta-se livre para usar, modificar e dis
 **Seu Nome**
 - GitHub: [@VenturaMatheus](https://github.com/VenturaMatheus)
 - LinkedIn: [Seu Perfil](https://www.linkedin.com/in/matheus-ventura-2a9933196/)
-- Email: seu@email.com
 
 ## 🤝 Contribuindo
 
@@ -244,15 +137,6 @@ Este projeto foi inspirado nas melhores práticas de:
 - Linear.app
 - Vercel.com
 - Framer.com
-
-## 📞 Suporte
-
-Se tiver dúvidas ou precisar de ajuda:
-- Abra uma **Issue** no GitHub
-- Entre em contato por email
-- Consulte a documentação das bibliotecas utilizadas
-
----
 
 **Desenvolvido por Matheus com muito ☕**
 
