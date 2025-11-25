@@ -168,36 +168,6 @@ Para adicionar imagens personalizadas:
 - ✅ Dark mode implementado
 - ✅ Animações suaves e modernas
 
-## 🎯 Próximas Melhorias Sugeridas
-
-### Performance
-- [ ] Implementar Service Worker para PWA
-- [ ] Adicionar preload para recursos críticos
-- [ ] Minificar CSS e JavaScript
-- [ ] Otimizar imagens (WebP, AVIF)
-- [ ] Implementar Critical CSS
-
-### Funcionalidades
-- [ ] Formulário de contato funcional
-- [ ] Integração com EmailJS ou Formspree
-- [ ] Galeria de imagens com lightbox
-- [ ] Blog integrado
-- [ ] Seção de portfolio/projetos
-- [ ] Chat ao vivo (Tawk.to, Tidio)
-
-### Analytics & SEO
-- [ ] Google Analytics
-- [ ] Facebook Pixel
-- [ ] Schema.org markup
-- [ ] Sitemap.xml
-- [ ] Robots.txt
-- [ ] Open Graph tags completos
-
-### Backend (Opcional)
-- [ ] Integração com CMS (Strapi, Contentful)
-- [ ] API REST para conteúdo dinâmico
-- [ ] Sistema de newsletter
-- [ ] Dashboard administrativo
 
 ## 🌟 Dicas de Otimização
 
